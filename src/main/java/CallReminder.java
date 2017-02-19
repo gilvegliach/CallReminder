@@ -20,19 +20,7 @@ import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 import java.util.*;
 
-/*
- * Install credentials in ~/.credentials/call-reminder:
- * 1. Go to https://console.developers.google.com/
- * 2. Select Calendar API > Credentials > Call Reminder 
- * 3. Download JSON
- * 4. Rename it to client_secret.json
- * 5. Move it to src/main/resources/
- * 
- * Run with
- *
- *    cat Client1.csv | gradle -q run
- *
- */
+
 public class CallReminder {
   private static final String APPLICATION_NAME = "Call Reminder";
   private static final java.io.File DATA_STORE_DIR = new java.io.File(
